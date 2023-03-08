@@ -153,6 +153,31 @@ a.nav-link:hover {
   }
  /* End Services */
 
+ /* Start Counter */
+  .counter-small-img {
+    box-shadow: 0px 6px 24px rgb(254 112 75 / 24%);
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+ }
+.counter-item:hover .counter-small-img {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+  }
+  .counter-border-right{
+    border-right: 2px dotted var(--main-color);
+  }
+  .counter-border-left  {
+    border-left: 2px dotted var(--main-color);
+  }
+ /* End Counter */
+
+
 
  /* Start Gallery */
  /* End Gallery */
