@@ -110,9 +110,47 @@ a.nav-link:hover {
   -ms-transform: rotateY(180deg);
   -o-transform: rotateY(180deg);
 }
+.about-img:hover .about-small-img {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
  /* End About Us */
 
  /* Start Services */
+  .services-subtitle {
+    color: var(--main-color);
+    font-size: 20px;
+ }
+ .services-title {
+    font-size: 36px;
+ }
+ .services-para {
+    line-height: 1.7;
+    padding-left: 70px;
+    padding-right: 70px
+ }
+ .services-shadow {
+    box-shadow: 0 0 30px #ddd;
+ }
+ .services-small-img {
+    box-shadow: 0px 6px 24px rgb(254 112 75 / 24%);
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+ }
+.services-shadow:hover .services-small-img {
+    margin-top: -10px;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+  }
  /* End Services */
 
 
