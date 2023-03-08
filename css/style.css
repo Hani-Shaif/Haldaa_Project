@@ -28,21 +28,13 @@
  .navbar {
     background-color: var(--background-color);
  }
- .margin-left {
-    margin-left: 200px;
+ a.margin-right  {
+    margin-right: 250px;
  }
- @media (min-width: 768px) {
-     .margin-left {
-        margin-left: 5px;
-     }
+ a.nav-link {
  }
 a.nav-link {
     color: var(--main-color-alt);
-    transition: .3s;
-    -webkit-transition: .3s;
-    -moz-transition: .3s;
-    -ms-transition: .3s;
-    -o-transition: .3s;
 }
 a.nav-link:hover {
     color: var(--main-color);
@@ -50,6 +42,8 @@ a.nav-link:hover {
 .btn {
     background-color: #FE704B;
     border: 0;
+    padding: 10px 20px;
+    margin-left: 10px;
 }
 .btn:hover {
     background-color:#FE704B;
@@ -57,6 +51,36 @@ a.nav-link:hover {
  /* End Navbar */
 
 /* Start Banner */
+.banner {
+    background-color: var(--background-color);
+}
+.banner-btn-left {
+    background-color: var(--main-color);
+    padding: 15px 25px;
+}
+.banner-btn-right {
+    padding: 15px 25px;
+    margin-left: 20px;
+}
+.banner-btn:hover{
+    background-color: var(--main-color-alt);
+    color: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.banner-margin-top {
+    margin-top: 120px;
+}
+.banner-para {
+    line-height: 28px;
+}
+.banner-title {
+    font-size: 54px;
+    line-height: 1.5;
+}
  /* End Banner */
 
  /* Start About Us */
