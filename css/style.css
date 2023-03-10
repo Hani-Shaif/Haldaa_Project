@@ -188,6 +188,7 @@ a.nav-link:hover {
     line-height: 1.7;
  }
  .gallery-img {
+    cursor: pointer;
     border-radius: 8px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
@@ -198,6 +199,37 @@ a.nav-link:hover {
 
 
  /* Start Pricing */
+.pricing-subtitle {
+    color: var(--main-color);
+    font-size: 20px;
+ }
+ .pricing-para {
+    line-height: 1.7;
+ }
+ .pricing-btn {
+   margin: 0 20px;
+   width: 100%;
+   margin-left: -15px;
+   transition: background-color .3s;
+   -webkit-transition: background-color .3s;
+   -moz-transition: background-color .3s;
+   -ms-transition: background-color .3s;
+   -o-transition: background-color .3s;
+}
+.pricing-item {
+   transition: margin-top .5s;
+   -webkit-transition: margin-top .5s;
+   -moz-transition: margin-top .5s;
+   -ms-transition: margin-top .5s;
+   -o-transition: margin-top .5s;
+}
+.pricing-item:hover {
+   margin-top: -5px;
+}
+/* .pricing-item:hover .pricing-btn {
+   background-color: #FE704B;
+   color: #fff;
+} */
  /* End Pricing */
 
   /* Start Contact  */
