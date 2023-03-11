@@ -232,5 +232,31 @@ a.nav-link:hover {
 } */
  /* End Pricing */
 
-  /* Start Contact  */
- /* End Contact  */
+  /* Start appointment */
+  .appointment {
+   /* height: 400px; */
+   background-color: var(--main-color);
+  }
+  .appointment-heading {
+   font-size: 50px;
+  }
+  .appointment-img {
+   margin-top: -70px;
+   margin-bottom: -20px;
+   padding-left: 100px;
+  }
+  .appointment-btn {
+   background-color: #fff;
+   color: var(--main-color);
+   padding: 12px 30px;
+   transition: background-color .5s, color .5s;
+   -webkit-transition: background-color .5s, color .5s;
+   -moz-transition: background-color .5s, color .5s;
+   -ms-transition: background-color .5s, color .5s;
+   -o-transition: background-color .5s, color .5s;
+}
+.appointment-btn:hover {
+   background-color: var(--main-color-alt);
+   color: #fff;
+}
+ /* End appointment  */
