@@ -63,9 +63,10 @@ a.nav-link:hover {
 .banner-btn-right {
     padding: 15px 25px;
     margin-left: 20px;
+    color: var(--main-color);
 }
 .banner-btn:hover{
-    background-color: var(--main-color-alt);
+    background-color: var(--main-color-alt)!important;
     color: #fff;
     border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -260,3 +261,24 @@ a.nav-link:hover {
    color: #fff;
 }
  /* End appointment  */
+
+ /* Start testimonial  */
+ .testimonial-img {
+   border-top-left-radius: 10px;
+   border-bottom-left-radius: 10px;
+ }
+ /* End testimonial  */
+
+
+ /* Start Team */
+ .team-item {
+   transition: color .5s;
+   -webkit-transition: color .5s;
+   -moz-transition: color .5s;
+   -ms-transition: color .5s;
+   -o-transition: color .5s;
+}
+.team-item:hover .team-item-heading {
+   color: var(--main-color);
+}
+ /* End Team  */
