@@ -284,5 +284,25 @@ a.nav-link:hover {
  /* End Team  */
 
  /* End Faq  */
- 
+ .faq-item-para {
+   font-size: 16px;
+ }
+ .footer-item-para {
+   font-size: 15px;
+   line-height: 28px;
+   font-weight: 400;
+ }
+ .footer-item-icon {
+   margin-left: -30px;
+ }
+ .footer-icon-color{
+   color: var(--main-color);
+ }
+ a.footer-item-link:hover {
+   color: var(--main-color);
+ }
+ .footer-item-subscribe {
+   background-color: var(--main-color);
+   margin-left: -6px;
+ }
  /* End Faq  */
